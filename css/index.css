@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Playlist Script';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Playlist Script'), url(fonts/Playlist\ Script.woff) format('woff');
+    }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Playlist Script';
+    font-size: 3rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/* First Page */
+.titlePic{
+    width: 100%;
+}
+
+#firstPage{
+    background-color: #2a2b33;
+}
+
+.firstPageText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+}
+
+.myButton{
+    margin: 3% 1% 0 1%;
+}
+
+/* Margin */
+.marginTop{
+    margin-top: 10%;
+}
