@@ -8,6 +8,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    /* color: black; */
     color: #fff;
 }
 
@@ -25,6 +26,10 @@ body{
     font-size: 1.2rem;
 }
 
+.myNavbar{
+    background-color: #7f4d33;
+}
+
 
 /* First Page */
 .titlePic{
@@ -32,19 +37,63 @@ body{
 }
 
 #firstPage{
+    /* background-color: #fff; */
     background-color: #2a2b33;
 }
 
 .firstPageText{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    text-align: center;
 }
 
 .myButton{
     margin: 3% 1% 0 1%;
 }
 
+.loginText{
+    font-style: italic;
+    
+}
+
 /* Margin */
 .marginTop{
     margin-top: 10%;
+}
+
+@media screen and (max-width: 1618px) {
+
+    /* First Page */
+    .firstPageText{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+
+    /* First Page */
+    .firstPageText{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+
+    /* First Page */
+    .firstPageText{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    /* First Page */
+    .firstPageText{
+        font-size: 2.5rem;
+    }
+
+    .mobMargin{
+        margin-top: 10%;
+    }
 }
